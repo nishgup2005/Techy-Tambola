@@ -207,7 +207,7 @@ document.getElementById("questionDisplay").classList.add("question-box");
 
 
 let timer;
-let timeLeft = 45; // Timer duration in seconds
+let timeLeft = 30; // Timer duration in seconds
 let isRunning = true;
 
 function updateTimerDisplay() {
@@ -233,7 +233,7 @@ function startTimer() {
 function resetTimer() {
     clearInterval(timer);
     timer = null; // Reset the timer variable so it can start again
-    timeLeft = 45;
+    timeLeft = 30;
     startTimer();
 }
 
